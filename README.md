@@ -1,6 +1,10 @@
 # Fortuna's Favor
 
-A DayZ mod that adds three Roman coins. Carry a coin to give eligible items a chance to avoid durability loss. Only the highest chance applies.
+DayZ mod that adds three collectible coins that can prevent durability loss on eligible items.
+
+## Features
+
+Eligible items can avoid durability loss when you carry a coin. The highest chance applies across all carried coins.
 
 | Coin | Item class | Default chance |
 | --- | --- | ---: |
@@ -8,6 +12,18 @@ A DayZ mod that adds three Roman coins. Carry a coin to give eligible items a ch
 | Fortuna Salus | `FF_Salus` | 5% |
 | Fortuna Fatum | `FF_Fatum` | 7% |
 
-This repository contains the DayZ addon source. Package the `FortunasFavor/` addon with DayZ Tools and load the same build on the server and clients. No third-party mods are required.
+## Requirements and compatibility
 
-[MIT License](LICENSE)
+Requires DayZ. No third-party mods are required.
+
+## Installation
+
+Load the same packaged build on the server and all connecting clients.
+
+## Build from source
+
+Package the `FortunasFavor/` addon with DayZ Tools.
+
+## License
+
+The source code is available under the [MIT License](LICENSE).
